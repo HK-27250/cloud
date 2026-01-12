@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Hitesh Kumar's</h1>
+      <h1>TODO's List</h1>
 
       <input value={title} onChange={e => setTitle(e.target.value)} />
       <button onClick={handleAdd}>Add</button>
